@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+img:hover{
+box-shadow: 2px 2px 8px 4px rgba(255, 99, 71, 1);
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+padding:15px;
+}
+tr:hover {background-color: tomato;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+}
+
+iframe{
+border:none;
+}
+
+
+</style>
+
+
+<head>
+<title>Sample Html</title>
+<link rel="icon" type="image/x-icon" href="https://picsum.photos/200/300">
+</head>
+
+
+<body style="background-image:url('file:///C:/Users/rohit/Desktop/html/wallpaperflare.com_wallpaper.jpg');background-size:cover;background-attachment: fixed;">
+<p id="top" style="background-color:black"></p>
+<a href="#table1">Jump to table </a>
+<br>
+<a href="#image">Jump to Image </a>
+
+<h1 style="color:red; font-family:verdana;font-size:300%;text-align:center">Heading one</h1>
+<br>
+<ul>
+<li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<div style="background-color:tomato;color:black;padding:10px;">
+<p title="This is 'stupid'">Some <del>random</del> important Paragraph</p>
+<p>This is <mark>highlighted part</mark></p>
+</div>
+<hr>
+<h2 style="color:orange">This is heading 2</h2>
+<p style="background-color:black;color:green">This is <strong>important part.</strong></p>
+<a href="https://google.com" target="_blank"><img src="https://https://www.gstatic.com/webp/gallery/1.jpg" alt="google website" ></a>
+<br>
+<table id="table1" style="width:100%">
+<caption><mark>Random Table</mark></caption>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Gender</th>
+</tr>
+<tr>
+<td>Ronny</td>
+<td>16</td>
+<td>male</td>
+</tr>
+<tr>
+<td>chloe</td>
+<td>15</td>
+<td>female</td>
+</tr>
+</table>
+
+<br>
+<iframe style="display: block; margin-left:auto; margin-right:auto;" width="560" height="315" src="https://www.youtube.com/embed/fiBRXPvnT1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen name="iframe_a"></iframe>
+<br>
+<a href="https://youtube.com" target="_blank">Visit You tube</a>
+<br>
+<a href="mailto:qwerty38702280@gmail.com">Mail this person</a>
+<br>
+<br>
+<img id="image" src="file:///C:/Users/rohit/Desktop/html/wallpaperflare.com_wallpaper (9).jpg" width="50%" height="50%" alt="Some image" style="display: block; margin-left:auto; margin-right:auto;padding:20px; box-shadow: 2px 2px 8px 4px rgba(75, 255, 10, 1);  ">
+<figcaption style="text-align:center; font-size:25px;">&#128512 The Mandalorian &#128513</figcaption>
+<br>
+
+<canvas id="myCanvas" width="500" height="100"></canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial"; 
+ctx.strokeText("This is a sample canvas", 10, 50);
+</script>
+<br>
+
+<video width="40%" height="40%" controls style="display: block; margin-left:auto; margin-right:auto;">
+<source src="file:///C:/Users/rohit/Desktop/html/file_example_MP4_1920_18MG.mp4" type="video/mp4">
+</video>
+
+<br>
+<a href="#top">Back to top </a>
+
+
+</body>
+</html>
